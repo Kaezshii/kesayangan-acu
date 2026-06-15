@@ -3,11 +3,11 @@ import { PLUSHIES, YOU_IMG } from "@/lib/assets";
 
 // Mid-sized bubbles gathered together
 const GATHER = [
-  { src: PLUSHIES.bear, top: "12%", left: "12%", size: 110 },
-  { src: PLUSHIES.bunny, top: "8%", left: "38%", size: 95 },
-  { src: PLUSHIES.cat, top: "14%", right: "14%", size: 105 },
-  { src: PLUSHIES.duck, bottom: "26%", left: "8%", size: 90 },
-  { src: PLUSHIES.fox, bottom: "28%", right: "10%", size: 100 },
+  { src: PLUSHIES.p1, top: "12%", left: "12%", size: 110 },
+  { src: PLUSHIES.p2, top: "8%", left: "38%", size: 95 },
+  { src: PLUSHIES.p3, top: "14%", right: "14%", size: 105 },
+  { src: PLUSHIES.p4, bottom: "26%", left: "8%", size: 90 },
+  { src: PLUSHIES.p5, bottom: "28%", right: "10%", size: 100 },
   { src: YOU_IMG, top: "20%", left: "62%", size: 120 },
 ];
 
