@@ -35,34 +35,34 @@ export const Route = createFileRoute("/")({
 
 const PLUSHIE_SLIDES = [
   {
-    plushie: "bear" as const,
+    plushie: "p1" as const,
     side: "left" as const,
-    message: "Hai Fayya... aku Beruang.\nKatanya hari ini buat kamu spesial.",
-    signed: "Beruang",
+    message: "Hai Fayya... aku Domo.\nKatanya hari ini buat kamu spesial.",
+    signed: "Domo",
   },
   {
-    plushie: "duck" as const,
+    plushie: "p2" as const,
     side: "right" as const,
-    message: "Aku Bebek!\nMau bilang kamu lucu hari ini... dan setiap hari.",
-    signed: "Bebek",
+    message: "Aku Labubu!\nMau bilang kamu lucu hari ini... dan setiap hari.",
+    signed: "Labubu",
   },
   {
-    plushie: "cat" as const,
+    plushie: "p3" as const,
     side: "left" as const,
-    message: "Psst, ini Kucing.\nKamu dipeluk dari jauh ya, hangat-hangat.",
-    signed: "Kucing",
+    message: "Psst, ini Stitch.\nKamu dipeluk dari jauh ya, hangat-hangat.",
+    signed: "Stitch",
   },
   {
-    plushie: "fox" as const,
+    plushie: "p4" as const,
     side: "right" as const,
-    message: "Rubah datang!\nJangan lupa senyum dulu sebelum lanjut, oke?",
-    signed: "Rubah",
+    message: "Kelinci datang!\nJangan lupa senyum dulu sebelum lanjut, oke?",
+    signed: "Kelinci",
   },
 ];
 
 const DUAL_SLIDE = {
-  left: "bunny" as const,
-  right: "bear" as const,
+  left: "p5" as const,
+  right: "p6" as const,
   message:
     "Kami berdua mau bilang...\nkamu disayang banget hari ini.\nSama dia juga.",
 };
