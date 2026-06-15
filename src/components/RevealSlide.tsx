@@ -2,11 +2,12 @@ import { motion } from "framer-motion";
 import { PLUSHIES, YOU_IMG } from "@/lib/assets";
 
 const SURROUND = [
-  { key: "bear" as const, top: "8%", left: "10%", size: 110 },
-  { key: "bunny" as const, top: "18%", right: "8%", size: 130 },
-  { key: "cat" as const, bottom: "10%", left: "8%", size: 120 },
-  { key: "duck" as const, bottom: "8%", right: "10%", size: 110 },
-  { key: "fox" as const, top: "50%", left: "2%", size: 90 },
+  { key: "p1" as const, top: "8%", left: "10%", size: 110 },
+  { key: "p2" as const, top: "18%", right: "8%", size: 130 },
+  { key: "p3" as const, bottom: "10%", left: "8%", size: 120 },
+  { key: "p4" as const, bottom: "8%", right: "10%", size: 110 },
+  { key: "p5" as const, top: "50%", left: "2%", size: 90 },
+  { key: "p6" as const, top: "55%", right: "2%", size: 90 },
 ];
 
 // Confetti pieces
